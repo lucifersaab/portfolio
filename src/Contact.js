@@ -6,15 +6,7 @@ export default function Contact() {
       </div>
 
       <div className="centered-div">
-        <div
-          className="centered-div"
-          style={{
-            width: "60%",
-            height: "100%",
-            margin: "0px auto",
-            padding: "40px",
-          }}
-        >
+        <div className="form-container">
           <form>
             <div className="centered-div" style={{ fontSize: "25px" }}>
               Let's get in touch!
