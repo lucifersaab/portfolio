@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/lucifersaab/portfolio/static/css/main.3778e76e.css",
-    "main.js": "/lucifersaab/portfolio/static/js/main.2097b209.js",
-    "static/js/787.78c9f1d0.chunk.js": "/lucifersaab/portfolio/static/js/787.78c9f1d0.chunk.js",
-    "static/media/Blender_Project.mp4": "/lucifersaab/portfolio/static/media/Blender_Project.01ca75319f32cdcdf394.mp4",
-    "static/media/SplitwiseApp.mp4": "/lucifersaab/portfolio/static/media/SplitwiseApp.98498384c7f479c4be79.mp4",
-    "static/media/space.mp4": "/lucifersaab/portfolio/static/media/space.7717348e2991d32497f4.mp4",
-    "static/media/Pacman-Game.mp4": "/lucifersaab/portfolio/static/media/Pacman-Game.ada2e9444a5f83b6a9c2.mp4",
-    "static/media/BurgerApp.mp4": "/lucifersaab/portfolio/static/media/BurgerApp.47e5bc4c4c3a2de44fb0.mp4",
-    "static/media/SQL.png": "/lucifersaab/portfolio/static/media/SQL.2f803ad2c46d3f5e511c.png",
-    "static/media/Blender.png": "/lucifersaab/portfolio/static/media/Blender.825464621b67a6ef8866.png",
-    "static/media/whatsapp.png": "/lucifersaab/portfolio/static/media/whatsapp.fd6af7079196cdd8fabf.png",
-    "static/media/react.png": "/lucifersaab/portfolio/static/media/react.44319306359c7112276d.png",
-    "static/media/C.png": "/lucifersaab/portfolio/static/media/C.efa542f5758aecfd96dd.png",
-    "static/media/java.png": "/lucifersaab/portfolio/static/media/java.6c64373d3b7415758078.png",
-    "index.html": "/lucifersaab/portfolio/index.html",
-    "main.3778e76e.css.map": "/lucifersaab/portfolio/static/css/main.3778e76e.css.map",
-    "main.2097b209.js.map": "/lucifersaab/portfolio/static/js/main.2097b209.js.map",
-    "787.78c9f1d0.chunk.js.map": "/lucifersaab/portfolio/static/js/787.78c9f1d0.chunk.js.map"
+    "main.css": "//portfolio/static/css/main.3778e76e.css",
+    "main.js": "//portfolio/static/js/main.0a869424.js",
+    "static/js/787.78c9f1d0.chunk.js": "//portfolio/static/js/787.78c9f1d0.chunk.js",
+    "static/media/Blender_Project.mp4": "//portfolio/static/media/Blender_Project.01ca75319f32cdcdf394.mp4",
+    "static/media/SplitwiseApp.mp4": "//portfolio/static/media/SplitwiseApp.98498384c7f479c4be79.mp4",
+    "static/media/space.mp4": "//portfolio/static/media/space.7717348e2991d32497f4.mp4",
+    "static/media/Pacman-Game.mp4": "//portfolio/static/media/Pacman-Game.ada2e9444a5f83b6a9c2.mp4",
+    "static/media/BurgerApp.mp4": "//portfolio/static/media/BurgerApp.47e5bc4c4c3a2de44fb0.mp4",
+    "static/media/SQL.png": "//portfolio/static/media/SQL.2f803ad2c46d3f5e511c.png",
+    "static/media/Blender.png": "//portfolio/static/media/Blender.825464621b67a6ef8866.png",
+    "static/media/whatsapp.png": "//portfolio/static/media/whatsapp.fd6af7079196cdd8fabf.png",
+    "static/media/react.png": "//portfolio/static/media/react.44319306359c7112276d.png",
+    "static/media/C.png": "//portfolio/static/media/C.efa542f5758aecfd96dd.png",
+    "static/media/java.png": "//portfolio/static/media/java.6c64373d3b7415758078.png",
+    "index.html": "//portfolio/index.html",
+    "main.3778e76e.css.map": "//portfolio/static/css/main.3778e76e.css.map",
+    "main.0a869424.js.map": "//portfolio/static/js/main.0a869424.js.map",
+    "787.78c9f1d0.chunk.js.map": "//portfolio/static/js/787.78c9f1d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3778e76e.css",
-    "static/js/main.2097b209.js"
+    "static/js/main.0a869424.js"
   ]
 }
