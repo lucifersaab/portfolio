@@ -22,7 +22,6 @@ export default function Main({ section1Ref, section2Ref }) {
   return (
     <>
       <div ref={section1Ref} className="centered-div">
-        {/* <div className="left-col"> */}
         <div className="heading-cont">
           <Header
             display={"Welcome to my portfolio!"}
@@ -33,10 +32,6 @@ export default function Main({ section1Ref, section2Ref }) {
         <div className="intro-para">
           <Header display={intro} delay={15} repeat={false}></Header>
         </div>
-        {/* </div>
-        <div className="right-col">
-          <img src={pic} alt="pic" />
-        </div> */}
       </div>
       <Skills ref={section2Ref} setState={handlePreview}></Skills>
       <Preview projectPreview={projectPreview}></Preview>
