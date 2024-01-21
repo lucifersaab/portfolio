@@ -395,7 +395,7 @@ form {
 @media (max-width: 768px) {
   .intro-para {
     font-size: 11px;
-    height: 500px;
+    height: 400px;
     box-sizing: content-box;
     text-align: justify;
     align-items: center;
