@@ -33,7 +33,8 @@ export default function Main({ section1Ref, section2Ref }) {
           <Header display={intro} delay={15} repeat={false}></Header>
         </div>
       </div>
-      <Skills ref={section2Ref} setState={handlePreview}></Skills>
+      <div ref={section2Ref}></div>
+      <Skills setState={handlePreview}></Skills>
       <Preview projectPreview={projectPreview}></Preview>
     </>
   );

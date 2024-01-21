@@ -217,6 +217,7 @@
 .projects {
   margin: 10px 0;
   font-size: 25px;
+  animation: projectGlow 2s infinite;
 }
 
 .projects:hover {
@@ -389,6 +390,18 @@ form {
   width: 100%;
   height: 100vh;
   object-fit: cover;
+}
+
+@keyframes projectGlow {
+  0% {
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #81007a, 0 0 4px #00e6e2,
+      0 0 5px #00ade6, 0 0 6px #1700e6, 0 0 7px #050e5e;
+  }
+
+  50% {
+    text-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 7px #215730, 0 0 10px #73ebbf,
+      0 0 12px #50e778, 0 0 15px #60eaa1, 0 0 17px #276353;
+  }
 }
 
 @media (max-width: 768px) {

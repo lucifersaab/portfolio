@@ -39,7 +39,8 @@ function App() {
           <Navbar scrollToSection={scrollToSection}></Navbar>
           <Main section1Ref={section1Ref} section2Ref={section2Ref}></Main>
           <Whatsapp></Whatsapp>
-          <Contact ref={section3Ref}></Contact>
+          <Contact></Contact>
+          <div ref={section3Ref}></div>
         </div>
       )}
     </>
