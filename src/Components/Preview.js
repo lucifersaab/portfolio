@@ -1,7 +1,7 @@
-import Pacman from "./Pacman-Game.mp4";
-import Splitwise from "./SplitwiseApp.mp4";
-import BurgerApp from "./BurgerApp.mp4";
-import Blender from "./Blender_Project.mp4";
+import Pacman from "./../Media/Pacman-Game.mp4";
+import Splitwise from "./../Media/SplitwiseApp.mp4";
+import BurgerApp from "./../Media/BurgerApp.mp4";
+import Blender from "./../Media/Blender_Project.mp4";
 import { useEffect, useState } from "react";
 
 export default function Preview({ projectPreview }) {

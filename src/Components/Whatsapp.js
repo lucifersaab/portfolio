@@ -1,4 +1,4 @@
-import whatsappimg from "./whatsapp.png";
+import whatsappimg from "./../Media/whatsapp.png";
 
 export default function Whatsapp() {
   return (

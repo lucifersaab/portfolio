@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Header from "./Header";
 import Skills from "./Skills";
 import Preview from "./Preview";
+import "./../CSS/App.css";
 
 export default function Main({ section1Ref, section2Ref }) {
   const intro =

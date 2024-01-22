@@ -1,10 +1,11 @@
-import react from "./react.png";
-import java from "./java.png";
-import sql from "./SQL.png";
-import C from "./C.png";
-import Blender from "./Blender.png";
-import back from "./back.png";
-import next from "./next.png";
+import "./../CSS/App.css";
+import react from "./../Media/react.png";
+import java from "./../Media/java.png";
+import sql from "./../Media/SQL.png";
+import C from "./../Media/C.png";
+import Blender from "./../Media/Blender.png";
+import back from "./../Media/back.png";
+import next from "./../Media/next.png";
 import Card from "./Card";
 import { useState, useEffect } from "react";
 export default function Skills(props) {

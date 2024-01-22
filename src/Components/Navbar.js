@@ -1,4 +1,4 @@
-import "./App.css";
+import "./../CSS/App.css";
 
 export default function Navbar({ scrollToSection }) {
   return (

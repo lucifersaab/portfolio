@@ -1,7 +1,7 @@
-import "./App.css";
+import "./../CSS/App.css";
 import React, { useEffect, useRef, useState } from "react";
 import Header from "./Header";
-import space from "./space.mp4";
+import space from "./../Media/space.mp4";
 
 export default function Start({ setPage, page }) {
   const [display, setDisplay] = useState(false);
@@ -23,7 +23,7 @@ export default function Start({ setPage, page }) {
         setPage("third");
       }, 5000);
     }
-  }, [page]);
+  }, [page, setPage]);
 
   const changepage = (val) => {
     setPage(val);

@@ -1,4 +1,5 @@
 import ProgressBar from "./ProgressBar";
+import "./../CSS/App.css";
 
 export default function Card({ ref, skills, setState }) {
   const dropdown = (project) => {

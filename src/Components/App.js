@@ -1,4 +1,4 @@
-import "./App.css";
+import "./../CSS/App.css";
 import Navbar from "./Navbar";
 import Main from "./main";
 import Whatsapp from "./Whatsapp";
