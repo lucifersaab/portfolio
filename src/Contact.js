@@ -1,4 +1,33 @@
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
+
 export default function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  emailjs.init("2ll-ORzF4qHQi_VwC");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs
+      .send("service_n84q3uk", "template_rearmm4", {
+        from_name: name,
+        to_name: "hashimfarooq777@gmail.com",
+        message: message + "\nsender's mail: " + email,
+      })
+      .then((response) => {
+        console.log("Email sent successfully:", response);
+        // Clear input fields after successful email sending
+        setName("");
+        setEmail("");
+        setMessage("");
+      })
+      .catch((error) => {
+        console.error("Email sending failed:", error);
+      });
+  };
+
   return (
     <>
       <div className="centered-div" style={{ fontSize: "30px" }}>
@@ -7,21 +36,38 @@ export default function Contact() {
 
       <div className="centered-div">
         <div className="form-container">
-          <form>
+          <form onSubmit={handleSubmit}>
             <div className="centered-div" style={{ fontSize: "25px" }}>
               Let's get in touch!
             </div>
             <div>
               <label>Name</label>
-              <input type="text" placeholder="Enter you name"></input>
+              <input
+                id="name-input"
+                type="text"
+                placeholder="Enter your name"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+              />
             </div>
             <div>
               <label>Email</label>
-              <input type="mail" placeholder="Enter your email"></input>
+              <input
+                id="mail-input"
+                type="email"
+                placeholder="Enter your email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
             </div>
             <div>
               <label>Message</label>
-              <input placeholder="Please enter your query"></input>
+              <input
+                id="message-input"
+                placeholder="Please enter your query"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+              />
             </div>
             <div>
               <button className="sendBtn" type="submit">
